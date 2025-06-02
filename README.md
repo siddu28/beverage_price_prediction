@@ -30,21 +30,26 @@ These are the steps I followed during this project:
 
 
 🔍 Key Steps I Followed
+
 1️⃣ Data Cleaning:
 
 1. Removed duplicates and outliers
 2. Handled missing values and corrected categorical data
+
 2️⃣ Feature Engineering:
 
 1. Created new features like Age Groups, Brand Awareness Score, and Zone Affluence Score
 2. Added a Brand Switching Indicator to enhance prediction accuracy
+
 3️⃣ Predictive Modeling:
 
-3. Tested models like Logistic Regression, Random Forest, XGBoost, and more
-4. Selected XGBoost as the best-performing model
+4. Tested models like Logistic Regression, Random Forest, XGBoost, and more
+5. Selected XGBoost as the best-performing model
+
 4️⃣ Experiment Tracking with MLflow:
 
 Tracked experiments, logged parameters and metrics, and compared model performance using MLflow
+
 5️⃣ Web App Deployment with Streamlit:
 
 Built a user-friendly interface where users can input data and get real-time predictions
